@@ -7,7 +7,7 @@ import ProductsGrid from '@/components/ProductsGrid';
 import Title from '@/components/Title';
 import { WishedProduct } from '@/models/WishedProduct';
 import { clerkClient } from '@clerk/nextjs';
-import { getAuth } from '@clerk/nextjs/server';
+import { getAuth, auth } from '@clerk/nextjs/server';
 
 export default function ProductsPage({ products, wishedProducts }) {
   return (
