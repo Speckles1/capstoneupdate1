@@ -4,6 +4,12 @@ import { ClerkProvider } from '@clerk/nextjs';
 
 const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    overflow-x: hidden;
+  }
   body{
     background-color: #eee;
     padding:0;
