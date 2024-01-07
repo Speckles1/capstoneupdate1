@@ -25,5 +25,6 @@ export const config = {
     '/',
     '/(api|trpc)(.*)',
     '/((?!api|_next/static|_next/image|favicon.ico).*)',
+    '/(.*)',
   ],
 };
