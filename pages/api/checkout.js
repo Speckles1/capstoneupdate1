@@ -45,7 +45,7 @@ export default async function handler(req, res) {
     streetAddress,
     country,
     paid: false,
-    userEmail: user.primaryEmailAddressId,
+    userEmail: user.email,
   });
 
   const shippingFeeSetting = await Setting.findOne({ name: 'shippingFee' });
