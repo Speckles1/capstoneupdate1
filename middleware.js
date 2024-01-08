@@ -20,6 +20,7 @@ export default authMiddleware({
 });
 
 export const config = {
+<<<<<<< Updated upstream
   matcher: [
     '/((?!.+\\.[\\w]+$|_next).*)',
     '/',
@@ -27,4 +28,7 @@ export const config = {
     '/((?!api|_next/static|_next/image|favicon.ico).*)',
     '/(.*)',
   ],
+=======
+  matcher: ['/((?!_next|api/auth).*)(.+)'],
+>>>>>>> Stashed changes
 };
